@@ -1,0 +1,25 @@
+Board type: CC2530 + CC2592
+Device type: Router
+ Transmit enable (TXEN): P12Receive enable (RXEN): P14
+Model ID: Relay.8ch
+Set default reporting interval (s): 60
+
+Output pins:
+P03: Output 1, GPIO, Pull-up, Remember state
+P04: Output 2, GPIO, Pull-up, Remember state
+P05: Output 3, GPIO, Pull-up, Remember state
+P06: Output 4, GPIO, Pull-up, Remember state
+P12: Output 5, GPIO, Pull-up, Remember state
+P13: Output 6, GPIO, Pull-up, Remember state
+P14: Output 7, GPIO, Pull-up, Remember state
+P15: Output 8, GPIO, Pull-up, Remember state
+
+Input pins:
+P00: Input 1, GPIO, Pull-up, Switch, Link to out 1
+P01: Input 2, GPIO, Pull-up, Switch, Link to out 2
+P02: Input 3, GPIO, Pull-up, Switch, Link to out 3
+P22: Input 4, GPIO, Pull-up, Switch, Link to out 4
+P21: Input 5, GPIO, Pull-up, Switch, Link to out 5
+P20: Input 6, GPIO, Pull-up, Switch, Link to out 6
+P17: Input 7, GPIO, Pull-up, Switch, Link to out 7
+P16: Input 8, GPIO, Pull-up, Switch, Link to out 8
